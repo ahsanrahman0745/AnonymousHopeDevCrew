@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/bottom_sheet.xml" value="0.19692307692307692" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/ic_baseline_post_add_24.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1135" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/msg_receive_bg.xml" value="0.1135" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/drawable/msg_send_bg.xml" value="0.1135" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/activity_main.xml" value="0.1695906432748538" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/admin_main_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/ccategory_list_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/chat_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/chat_user_list.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/chat_user_list_fragment.xml" value="0.1748792270531401" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/create_user_account.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/event_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/events_layouts.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/fragment_food.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/home_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/layout_headerbar.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/list_item_category.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/list_itemcategory.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/list_receiver_msg.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/login_screen.xml" value="0.165" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/ngo_events_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/ngo_home_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/ngo_main_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/ngo_profile_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/post_product_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/profile_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/splesh_fragment.xml" value="0.165" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/layout/users_main_fragment.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/menu/menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/menu/menu_user_nav.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidStudioProjects/AnonymousHopeDevCrew/app/src/main/res/menu/ngo_menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/Malik Hassan/Desktop/AnonymousHopeDevCrew/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Malik Hassan/Desktop/AnonymousHopeDevCrew/app/src/main/res/layout/post_product_fragment.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

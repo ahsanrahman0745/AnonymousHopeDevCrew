@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:ignore="MissingConstraints"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/layout_header"
+        layout="@layout/layout_headerbar" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Categories"
+        android:background="@color/newtitle"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_itemCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+     />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Events"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:background="@color/newtitle"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+    <ScrollView
+        android:background="@drawable/bottom_sheet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_Events"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="6">
+
+
+
+
+
+           <!--  start worker
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/driversDashboardCardView"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_margin="1dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/ic_baseline_image_24"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Name"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+             end worker
+
+
+             start worker
+-->
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

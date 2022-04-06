@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeBotttombtn"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/myChatBotttombtn"
+        android:title="Chat"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+
+    <item android:id="@+id/profileBotttombtn"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+    <item android:id="@+id/postProduct"
+        android:title="Add"
+        android:icon="@drawable/ic_baseline_post_add_24"/>
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285404729528",
+    "project_id": "anonymous-hope-with-devcrew",
+    "storage_bucket": "anonymous-hope-with-devcrew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285404729528:android:d6a47bdd33dbb0f540a44d",
+        "android_client_info": {
+          "package_name": "dev.devcrew.anonymoushopedevcrew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285404729528-loajq6q277qflaetg6edestk77abm7u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd5alp0kR2QqPkXsU_mmQI44vX6p4rRuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285404729528-loajq6q277qflaetg6edestk77abm7u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#F1EDED"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="25sp"
+        android:gravity="left|center"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" >
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/log"
+            android:id="@+id/profileImage"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginStart="13sp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="11sp"
+        android:layout_marginTop="91sp"
+        android:layout_marginEnd="11sp"
+        android:layout_marginBottom="111sp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            android:paddingStart="11dp"
+            android:paddingTop="19dp"
+            android:paddingEnd="9dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="NGO Name: "
+                android:textSize="19dp"
+                android:layout_marginTop="11sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Name: "
+                android:id="@+id/nameNGO"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_marginTop="11sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Email: "
+                android:layout_marginTop="11sp"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="email: "
+                android:id="@+id/emailNGO"
+                android:textSize="19dp"
+                android:layout_marginTop="11sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Phone: "
+                android:textSize="19dp"
+                android:layout_marginTop="11sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Name: "
+                android:id="@+id/phoneNGO"
+                android:layout_marginTop="11sp"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="DOE: "
+                android:textSize="19dp"
+                android:layout_marginTop="11sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Name: "
+                android:id="@+id/dobNGO"
+                android:layout_marginTop="11sp"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginTop="11sp"
+                android:layout_gravity="left"
+                android:id="@+id/logout"
+                android:src="@drawable/ic_baseline_login_24"
+                android:layout_height="50dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginProgressBar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDED"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="25sp"
+        android:gravity="left|center"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" >
+        <ImageView
+            android:layout_width="50dp"
+            android:src="@drawable/log"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Create Account"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginStart="13sp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="11sp"
+        android:layout_marginTop="91sp"
+        android:layout_marginEnd="11sp"
+        android:layout_marginBottom="111sp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="15sp"
+        app:cardElevation="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="11sp"
+                android:layout_marginStart="11sp"
+                android:id="@+id/radioGroup"
+                android:layout_gravity="top|center"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="donner/needy"
+                    android:checked="true"
+                    android:id="@+id/radioBtnDonnerOrNeedy"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:text="NGO"
+                    android:id="@+id/radioBtnNGO"
+                    android:layout_marginStart="10sp"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="11sp"
+                android:layout_marginTop="15sp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/ngoLinearLayout"
+                android:layout_marginEnd="11sp"
+                android:layout_height="match_parent">
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="11sp"
+                android:layout_marginTop="15sp"
+                android:orientation="vertical"
+                android:id="@+id/donnerOrNeedyLinearLayout"
+                android:layout_marginEnd="11sp"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nameOfUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter First Name/NGO"
+                    app:boxBackgroundColor="@android:color/transparent"
+                    app:startIconDrawable="@drawable/ic_baseline_person_outline_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:maxLength="35"
+                        android:textSize="19dp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/secondNameOfUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15sp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Second Name"
+                    app:boxBackgroundColor="@android:color/transparent"
+                    app:startIconDrawable="@drawable/ic_baseline_person_outline_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:maxLength="11"
+                        android:textSize="19dp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailOfUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15sp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Email"
+                    app:boxBackgroundColor="@android:color/transparent"
+                    app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:textSize="19dp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/addreeOfUser"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15sp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Adress"
+                    app:boxBackgroundColor="@android:color/transparent"
+                    app:startIconDrawable="@drawable/ic_baseline_add_location_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPostalAddress"
+                        android:textSize="19dp" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Select DOB/DOE"
+                    android:id="@+id/tvDate"
+                    android:layout_marginTop="21dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30sp"/>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15sp"
+                    android:text="Create Account"
+                    android:id="@+id/createDonnerOrNeedyAccount"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
